@@ -1,10 +1,10 @@
 <script>
-	import { noop } from "$lib/foo.js";
+	import { foo } from "$lib/foo.js";
 	import SomeComponent from "$lib/SomeComponent.svelte";
 
 	let open = $state(false);
 
-	noop();
+	foo();
 </script>
 
 <p>Current open status: {open}</p>
